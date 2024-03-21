@@ -32,8 +32,8 @@ function onButtonClick(btn,i,j) {
     if (
     (resultat[0][0] == tourActuel && resultat[0][1] == tourActuel && resultat[0][2] == tourActuel) ||
     (resultat[1][0] == tourActuel && resultat[1][1] == tourActuel && resultat[1][2] == tourActuel) ||
-    (resultat[2][0] == tourActuel && resultat[2][1] == tourActuel && resultat[2][2] == tourActuel) ||
-    ) {
+    (resultat[2][0] == tourActuel && resultat[2][1] == tourActuel && resultat[2][2] == tourActuel) 
+    )  {
         document.getElementById("alert").innerText = 'Joueur ' + tourActuel + ' a gagné !';
     }
     if(tourActuel == "X") {
